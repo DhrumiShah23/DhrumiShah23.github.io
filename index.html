@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhrumi Shah - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Lora', serif;
+      background-color: #fff7fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header, section {
+      padding: 2em;
+      margin: 0 auto;
+      max-width: 900px;
+    }
+    header {
+      text-align: center;
+    }
+    header img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    h1, h2, h3 {
+      color: #d81b60;
+    }
+    .badges span {
+      display: inline-block;
+      background-color: #fcd1e1;
+      padding: 0.3em 0.7em;
+      margin: 0.2em;
+      border-radius: 15px;
+      font-size: 0.9em;
+    }
+    .certifications a {
+      display: block;
+      margin-bottom: 0.5em;
+      color: #333;
+      text-decoration: none;
+    }
+    .resume-btn {
+      display: inline-block;
+      background-color: #f48fb1;
+      color: white;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1em;
+    }
+    .project-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+    }
+    .project {
+      background-color: white;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .link-bar {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    .link-bar a {
+      margin: 0 0.5em;
+      text-decoration: none;
+      color: #d81b60;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Image.jpeg" alt="Dhrumi Shah">
+    <h1>Dhrumi Shah</h1>
+    <div class="link-bar">
+      <a href="mailto:dhrumi.shah@nyu.edu">Email</a>
+      <a href="https://www.linkedin.com/in/dhrumishah23">LinkedIn</a>
+      <a href="https://github.com/DhrumiShah23">GitHub</a>
+      <a href="https://public.tableau.com/app/profile/dhrumi.shah">Tableau</a>
+    </div>
+    <p>Blending a foundation in technology with a passion for business, I specialize in bridging the gap between numbers and narratives. My goal? To create smart, data-driven solutions that are as human as they are analytical.<br>
+    Beyond building tech that understands people, I’m often found curled up with a book or getting in a solid workout, because brains and biceps both deserve attention ;))</p>
+  </header>
+
+  <section>
+    <h2>Education</h2>
+    <p><strong>New York University, Courant Institute</strong> — MS in Information Systems (2023–2025)<br>GPA: 3.6</p>
+    <p><strong>University of Mumbai</strong> — Bachelor of Management Studies (2019–2022)<br>CGPA: 9.85</p>
+    <p><strong>MIT Pune</strong> — Postgraduate Certification in Business Analytics (2022–2023)<br>CGPA: 10</p>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <div class="certifications">
+      <a href="#">Google Data Analytics Part 1: Foundations — Credential ID 5TY8NAVEAVQU</a>
+      <a href="#">Google Data Analytics Part 2: Making Data Driven Decisions — Credential ID 8TWSS65DY2H2</a>
+      <a href="#">Google Data Analytics Part 3: Data Preparation for Exploration — Credential ID BEAPPG5SFB8E</a>
+      <a href="#">Google Data Analytics Part 4: Data Processing — Credential ID BXH4UMG8X3MW</a>
+      <a href="#">Google Data Analytics Part 5: Answering Questions — Credential ID U59CC25J7KD4</a>
+      <a href="#">UCSC: Relational Database Design & SQL Programming</a>
+      <a href="#">UCSC: JAVA Object Oriented Programming</a>
+      <a href="#">Google: Fundamentals of Digital Marketing — Credential ID XWU Q44 87X</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project"><h3>AutoClaimAI</h3><p>Developed a predictive modeling system to estimate auto insurance claim risks using customer, vehicle, and telematics data. Created real-time dashboards and implemented model comparison techniques to optimize strategic policy decisions.</p><div class="badges"><span>ML</span><span>Python</span><span>Risk Modeling</span></div></div>
+      <div class="project"><h3>Loan Acceptance Predictor</h3><p>Built a logistic regression model that identified key features like income and credit score to predict loan acceptance. Evaluated with ROC and F1 metrics to ensure robustness and accuracy.</p><div class="badges"><span>Classification</span><span>Scikit-Learn</span><span>Pandas</span></div></div>
+      <div class="project"><h3>Cancer Risk Predictor</h3><p>Designed a patient-facing ML tool that calculates cancer risk using health and diagnostic data. Provided interpretable EDA visualizations and integrated model retraining features.</p><div class="badges"><span>Seaborn</span><span>Python</span><span>Healthcare</span></div></div>
+      <div class="project"><h3>SDN Router Balancer</h3><p>Engineered an SDN-based system that uses Layer-3 routers and TCP balancers to optimize traffic. Enabled efficient network scaling and minimized packet latency.</p><div class="badges"><span>SDN</span><span>Networking</span><span>Router</span></div></div>
+      <div class="project"><h3>Cyclistic Analysis</h3><p>Performed customer behavior analysis for a bike-share company using R and Tableau. Derived actionable strategies for converting casual riders into loyal subscribers.</p><div class="badges"><span>R</span><span>Data Viz</span><span>Tableau</span></div></div>
+      <div class="project"><h3>Black Book</h3><p>Led a research initiative studying gender representation in advertisements. Combined qualitative interviews and quantitative data to create an inclusive media strategy guide.</p><div class="badges"><span>Gender Research</span><span>Survey</span><span>Strategy</span></div></div>
+      <div class="project"><h3>Healthonomics Index</h3><p>Created regression and clustering pipelines to explore the economic burden of chronic diseases globally using WHO/World Bank datasets.</p><div class="badges"><span>Clustering</span><span>Regression</span><span>EDA</span></div></div>
+      <div class="project"><h3>META ML Robothon</h3><p>Implemented secure fingerprint data sharing using Flask, sockets, and RBAC control for a P2P medical system. Placed top 10 in a national AI hackathon.</p><div class="badges"><span>Flask</span><span>Security</span><span>P2P</span></div></div>
+      <div class="project"><h3>Real Estate Predictor</h3><p>Predicted housing prices using macro and micro economic indicators and built investor-facing dashboards for insights.</p><div class="badges"><span>Dash</span><span>Housing</span><span>Prediction</span></div></div>
+    </div>
+  </section>
+
+  <footer>
+    <a class="resume-btn" href="Dhrumi Shah-Resume_MI.pdf" download>Download Resume</a>
+  </footer>
+</body>
+</html>
